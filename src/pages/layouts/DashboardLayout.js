@@ -24,9 +24,10 @@ import {
     import React, {Children, useEffect, useState, useRef} from 'react';
     import { Outlet, useLocation, useNavigate, Link as RouterLink } from 'react-router-dom';
     import { drawerMenu, popMenu } from '../../constants/menu';
-    import MenuIcon from "@mui/icons-material/Menu"
-    import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-    import ChevronRightIcon from '@mui/icons-material/ChevronRight'
+    import MenuIcon from "@mui/icons-material/Menu";
+    import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+    import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+    
 
 
     const drawerWidth = 280
